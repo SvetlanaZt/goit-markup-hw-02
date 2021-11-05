@@ -67,9 +67,19 @@
   color: var(--first-text-color);
   font-size: 14px;
 }
-.paragraph {
+.pre-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text {
   color: var(--text-p-color);
   font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 /* Чем мы занимаемся*/
@@ -81,16 +91,31 @@
 .section-title {
   color: var(--first-text-color);
   font-size: 36px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-/*Наа команда*/
+/*Наша команда*/
 
 .section-group {
   background: var(--second-text-color);
 }
 .name {
   color: var(--first-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .professional {
   color: var(--text-p-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
