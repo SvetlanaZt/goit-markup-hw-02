@@ -14,6 +14,8 @@ body {
   color: var(--accent-color);
 }
 .link-logo {
+  font-family: Raleway;
+  font-style: normal;
   text-decoration: none;
   font-weight: bold;
   font-size: 26px;
@@ -54,52 +56,18 @@ body {
 }
 
 /***Кнопки*/
-.button-oll {
+.button {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
+  background: #f5f4fa;
   color: var(--first-text-color);
-  background: var(--button-color);
-}
-.button-web {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--first-text-color);
-  background: var(--button-color);
-}
-
-.button-app {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--first-text-color);
-  background-color: var(--button-color);
-}
-
-.button-design {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.03em;
-  color: var(--first-text-color);
-  background: var(--button-color);
-}
-
-.button-marketing {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--first-text-color);
-  background: var(--button-color);
+  border: none;
 }
 
 /*Картинки*/
@@ -136,6 +104,8 @@ body {
   text-decoration: none;
 }
 .footer-logo {
+  font-family: Raleway;
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -144,6 +114,10 @@ body {
 }
 .footer-studio {
   color: var(--second-text-color);
+}
+.footer-list {
+  font-family: Roboto;
+  font-style: normal;
 }
 .footer-adress {
   font-weight: normal;
